@@ -9,11 +9,11 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p.small {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 a,
@@ -22,7 +22,12 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    /*color: #{{ site.color.primary }};*/
+    color: #60a3d9;
+
+;
+
+
 }
 
 h1,
@@ -183,7 +188,7 @@ section h2 {
 section.success {
     color: #fff;
    /* background: #{{ site.color.primary }};*/
-   background-color: #FFB6C1;
+   background-color: #bfd7ed;
 }
 
 @media(max-width:767px) {
